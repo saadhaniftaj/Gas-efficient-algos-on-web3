@@ -1,0 +1,39 @@
+No files changed, compilation skipped
+
+Ran 2 tests for test/Counter.t.sol:CounterTest
+[PASS] testFuzz_SetNumber(uint256) (runs: 256, μ: 31965, ~: 32354)
+[PASS] test_Increment() (gas: 31851)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 9.46ms (6.45ms CPU time)
+
+Ran 1 test for test/SortTest.t.sol:SortTest
+[PASS] testAllSorts() (gas: 13630084)
+Logs:
+  [GAS],Insertion,5,16371
+  [GAS],Merge,5,27666
+  [GAS],Counting,5,29581
+  [GAS],Bubble,5,23636
+  [GAS],Selection,5,15797
+  [GAS],Insertion,10,30272
+  [GAS],Merge,10,53864
+  [GAS],Counting,10,46282
+  [GAS],Bubble,10,61092
+  [GAS],Selection,10,25547
+  [GAS],Insertion,20,103658
+  [GAS],Merge,20,123629
+  [GAS],Counting,20,88761
+  [GAS],Bubble,20,230664
+  [GAS],Selection,20,67686
+  [GAS],Insertion,50,524153
+  [GAS],Merge,50,363691
+  [GAS],Counting,50,216709
+  [GAS],Bubble,50,1340848
+  [GAS],Selection,50,299775
+  [GAS],Insertion,100,1996532
+  [GAS],Merge,100,816484
+  [GAS],Counting,100,431892
+  [GAS],Bubble,100,5288365
+  [GAS],Selection,100,1049826
+
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 44.12ms (39.65ms CPU time)
+
+Ran 2 test suites in 123.16ms (53.58ms CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
